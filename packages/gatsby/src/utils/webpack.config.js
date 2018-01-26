@@ -547,6 +547,8 @@ module.exports = async (
     context: directory,
     node: {
       __filename: true,
+      fs:"empty",
+      child_process:"empty"
     },
     entry: entry(),
     debug: true,
